@@ -1,0 +1,53 @@
+$color: rgb(28, 229, 61);
+$xxl: 1920px;
+$xl: 1560px;
+$font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+%button {
+    width: 150px;
+    height: 25px;
+    border: none;
+    background-color: rgb(155, 16, 198);
+}
+
+h1{
+    color: $color;
+    font-size: 50px;
+    font-family: $font;
+}
+
+button{
+    @extend %button
+}
+
+header{
+    background-color: rgb(243, 243, 164);
+    height: 20vh;
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        .logo{
+            font-family: $font;
+        }
+        .nav{
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $color;
+                    }
+                }
+            }
+        }
+    }
+    .contacts{
+        p{
+            font-family: $font;
+        }
+    }
+
+}

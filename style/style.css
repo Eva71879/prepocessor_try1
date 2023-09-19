@@ -1,0 +1,36 @@
+button {
+  width: 150px;
+  height: 25px;
+  border: none;
+  background-color: rgb(155, 16, 198);
+}
+
+h1 {
+  color: rgb(28, 229, 61);
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  background-color: rgb(243, 243, 164);
+  height: 20vh;
+}
+header .container {
+  width: 80%;
+  margin: 0 auto;
+}
+header .container .logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header .container .nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header .container .nav ul li a {
+  text-decoration: none;
+  color: rgb(28, 229, 61);
+}
+header .contacts p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}/*# sourceMappingURL=style.css.map */
