@@ -1,0 +1,15 @@
+// %button {
+//     width: 150px;
+//     height: 25px;
+//     border: none;
+//     background-color: rgb(155, 16, 198);
+// }
+
+@mixin btn ($width,$height,$bg){
+    width: $width;
+    height: $height;
+    background-color: $bg;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
